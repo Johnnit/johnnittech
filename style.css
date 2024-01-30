@@ -5,10 +5,14 @@
     --text-black-900:#302e4d;
     --text-black-700:#504e70;
 }
+html{
+    scroll-behaviour:smooth;
+    scroll-snap-type: y mandatory;
+}
 body{
-    /*margin: 0;
-    padding: 0;*/
+   scroll-behaviour: smooth;
     line-height: 1.5;
+    scroll-snap-type: y mandatory;
     font-size: 16px;
     font-family: sans-serif;
 }
@@ -40,13 +44,9 @@ ul{
     min-height: 100vh;
     display: block;
     padding: 0 30px;
-    /*position: fixed;
-    left: 270px;
-    top: 0;
-    padding: 0 30px;
-    right: 0;*/
+    scroll-behaviour:smooth;
+    scroll-snap-type: y mandatory;
     opacity: 1;
-    /*z-index: 0;*/
 }
 .hidden{
     display: none !important;
