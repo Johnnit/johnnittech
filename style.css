@@ -631,7 +631,7 @@ font-size:clamp(1.5rem, 2.5vw,2rem);
     height: 50px;
     padding: 0 50px;
 }
-@media (max-width:1199px) {
+@media screen and (max-width:1199px) {
     .aside{
         left: -270px;
     }
@@ -643,7 +643,7 @@ font-size:clamp(1.5rem, 2.5vw,2rem);
         margin-left: 0;
     }
 }
-@media (max-width:991px) {
+@media screen and (max-width:991px) {
     .contact .contact-info-item,
     .portfolio .portfolio-item,
     .service .service-item{
@@ -660,7 +660,7 @@ font-size:clamp(1.5rem, 2.5vw,2rem);
     }
 }
 
-@media (max-width:767px) {
+@media screen and (max-width:767px) {
     .aside{
         display:none;
         }
