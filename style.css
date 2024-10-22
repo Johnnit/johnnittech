@@ -129,7 +129,7 @@ ul{
     background: var(--bg-black-100);
     position: fixed;
     left: 0;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     padding: 30px;
