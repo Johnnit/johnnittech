@@ -16,7 +16,7 @@ window.onload = ()=>{
         speech.speak(utter);
 }
 
-playVoice.addEventListener('click',()=>{
+document.querySelector('.s-icon .play').addEventListener('click',()=>{
     let bdy = document.querySelector('body').textContent;
     let utterance = new SpeechSynthesisUtterance(bdy);
     if(playVoice.querySelector('i').classList.contains('fa-play')){
