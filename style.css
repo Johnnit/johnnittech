@@ -256,7 +256,7 @@ h3.hello span{
 h3.my-profession{
     font-size: 30px;
     margin: 15px 0;
-
+font-size:clamp(1.5rem, 2.5vw,2rem);
 }
 .typing{
     color: var(--skin-color);
@@ -661,6 +661,9 @@ h3.my-profession{
 }
 
 @media (max-width:767px) {
+    .aside{
+        display:none;
+        }
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
@@ -672,4 +675,5 @@ h3.my-profession{
         flex: 0 0 100%;
         max-width: 100%;
     }
+    
 }
