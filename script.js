@@ -29,6 +29,6 @@ document.querySelector('.s-icon .play').addEventListener('click',()=>{
     playVoice.querySelector("i").classList.remove('fa-pause');
     playVoice.querySelector("i").classList.add('fa-play');
     
-    speech.pause();
+    speech.speak(utterance);
     }
 })
