@@ -47,7 +47,7 @@
 }
 .style-switcher .day-night{
     top: 105px;
-    color: var(--text-black-900);
+/*    color: var(--text-black-900);*/
 }
 .style-switcher h4{
     margin: 0 0 10px;
