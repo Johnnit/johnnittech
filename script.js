@@ -7,13 +7,13 @@ var typed = new Typed(".typing", {
 
 })
 const playVoice = document.querySelector('.play');
-let speechSynthesis = window.speechSynthesis;
+let speech = window.speechSynthesis;
 
 window.onload = ()=>{
     playVoice.querySelector('i').classList.add('fa-play');
-    let utter = new SpeechSynthesisUtterance('Welcome, to Ajala John portfolio page.\n Click on the play button on the top-right corner of the page to read the page.');
+    let utter = new SpeechSynthesisUtterance('Welcome, to Ajala John portfolio page. Click on the play button on the top-right corner of the page to read the page.');
 
-        window.speechSynthesis.speak(utter);
+        speech.speak(utter);
 }
 
 playVoice.addEventListener('click',()=>{
@@ -22,13 +22,13 @@ playVoice.addEventListener('click',()=>{
     if(playVoice.querySelector('i').classList.contains('fa-play')){
         playVoice.querySelector("i").classList.add('fa-pause');
         playVoice.querySelector("i").classList.remove('fa-play');
-        window.speechSynthesis.speak(utterance);
+       speech.speak(utterance);
     }
     else{
     
     playVoice.querySelector("i").classList.remove('fa-pause');
     playVoice.querySelector("i").classList.add('fa-play');
     
-    window.speechSynthesis.pause();
+    speech.pause();
     }
 })
