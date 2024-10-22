@@ -467,6 +467,12 @@ h3.my-profession{
 .section .container{
     padding-bottom: 40px;
 }
+.service .rows{
+    display:grid;
+    grid-template-column:repeat(autofit,minmax(15rem,1fr);
+    grid-aito-rows:1fr;
+    gap:10px;
+}
 .service .service-item{
     margin-bottom: 30px;
     flex:0 0 32%;
