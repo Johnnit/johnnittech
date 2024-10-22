@@ -467,12 +467,12 @@ font-size:clamp(1.5rem, 2.5vw,2rem);
 .section .container{
     padding-bottom: 40px;
 }
-.service .rows{
+/*.service .rows{
     display:grid;
     grid-template-column:repeat(autofit,minmax(15rem,1fr);
     grid-aito-rows:1fr;
     gap:10px;
-}
+}*/
 .service .service-item{
     margin-bottom: 30px;
     flex:0 0 32%;
