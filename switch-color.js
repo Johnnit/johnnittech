@@ -23,7 +23,7 @@ function setActiveStyle(color){
 /*theme light, dark mode*/
 const dayNight = document.querySelector(".day-night");
 dayNight.addEventListener("click",()=>{
-    dayNight.querySelector("i").classList.toggle("bx-sun");
+   /* dayNight.querySelector("i").classList.toggle("bx-sun");*/
     dayNight.querySelector("i").classList.toggle("bx-moon");
     document.body.classList.toggle("dark");
 })
