@@ -469,7 +469,7 @@ font-size:clamp(1.5rem, 2.5vw,2rem);
 }
 .service .container .rows{
     display:grid;
-    grid-template-column:repeat(autofit,minmax(15rem,1fr);
+    grid-template-column:1fr 1fr;
     grid-aito-rows:1fr;
     gap:10px;
 }
