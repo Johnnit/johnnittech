@@ -333,7 +333,7 @@ font-size:clamp(1.5rem, 2.5vw,2rem);
 .about .about-content .personal-info .info-item p{
     font-weight: 600;
     padding: 10px 0;
-    font-size: clamp(0.8rem,2.5vw,1rem);
+    font-size: clamp(0.5rem,2.5vw,1rem);
     color: var(--text-black-900);
     border-bottom: 1px solid var(--bg-black-90);
 }
@@ -469,7 +469,7 @@ font-size:clamp(1.5rem, 2.5vw,2rem);
 }
 .service .container .rows{
     display:grid;
-    grid-template-column:1fr 1fr;
+    grid-template-columns:1fr 1fr;
     grid-auto-rows:1fr;
     gap:10px;
 }
