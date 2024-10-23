@@ -475,6 +475,7 @@ font-size:clamp(1.5rem, 2.5vw,2rem);
     gap:10px;
 }
 .service .service-item{
+    width:100%;
     margin-bottom: 30px;
     flex:0 0 32%;
     max-width: 100%;
@@ -633,10 +634,12 @@ font-size:clamp(1.5rem, 2.5vw,2rem);
     padding: 0 50px;
 }
 footer{
-    background:red;
+    background:grey;
     width:100%;
     text-align:center;
     color: var(--text-black-900);
+    font-size:14px;
+    padding:10px 0;
 }
 @media screen and (max-width:1199px) {
     .aside{
