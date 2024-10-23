@@ -78,6 +78,7 @@ ul{
     font-weight: 700;
     position: relative;
     width:100%;
+    overflow-x:hidden;
 }
 .row{
     display: flex;
@@ -466,6 +467,7 @@ font-size:clamp(1.5rem, 2.5vw,2rem);
 }
 /*services*/
 .section .container{
+    width:100%;
     padding-bottom: 40px;
 }
 .service .container .rows{
@@ -478,7 +480,7 @@ font-size:clamp(1.5rem, 2.5vw,2rem);
 .service .service-item{
     width:100%;
     margin-bottom: 30px;
-    flex:0 0 32%;
+    /*flex:0 0 32%;*/
     max-width: 100%;
     margin-left: 5px;
     
@@ -662,7 +664,9 @@ footer{
         max-width: 50%;
     }
 .home{
-        flex-direction:column;
+        flex-direction:column-reverse;
+    align-items:center;
+    gap:200px;
 }
     .home .home-info{
         flex:0 0 100%;
