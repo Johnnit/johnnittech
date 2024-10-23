@@ -632,6 +632,12 @@ font-size:clamp(1.5rem, 2.5vw,2rem);
     height: 50px;
     padding: 0 50px;
 }
+footer{
+    background:red;
+    width:100%;
+    text-align:center;
+    color: var(--text-black-900);
+}
 @media screen and (max-width:1199px) {
     .aside{
         left: -270px;
