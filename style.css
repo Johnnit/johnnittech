@@ -91,7 +91,7 @@ ul{
     content: '';
     height: 4px;
     position: absolute;
-    width: 50%;
+    width: 50px;
     background-color: var(--skin-color);
     top: 100%;
     left: 0;
@@ -616,6 +616,7 @@ font-size:clamp(1.5rem, 2.5vw,2rem);
     height: 50px;
     border-radius: 25px;
     background: var(--bg-black-100);
+    box-shadow:1px 1px 5px var(--bg-100);
     border: 1px solid var(--bg-black-90);
     padding: 10px 25px;
     font-size: 16px;
@@ -664,8 +665,9 @@ footer{
         max-width: 50%;
     }
 .home{
-        flex-direction:column-reverse;
+        flex-direction:column;
     align-items:center;
+    justify-content:space-between;
     gap:200px;
 }
     .home .home-info{
@@ -673,7 +675,8 @@ footer{
         max-width: 100%;
     }
     .home .home-img{
-       /* display: none;*/
+       display: block;
+        
     }
 }
 
