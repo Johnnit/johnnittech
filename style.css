@@ -470,17 +470,17 @@ font-size:clamp(1.5rem, 2.5vw,2rem);
     width:100%;
     padding-bottom: 40px;
 }
-.service .container .rows{
+/*.service .container .rows{
     width:100vw;
     display:grid;
     grid-template-columns:1fr 1fr;
     grid-auto-rows:1fr;
-   /* gap:10px;*/
-}
+    gap:10px;
+}*/
 .service .service-item{
     width:100%;
     margin-bottom: 30px;
-    /*flex:0 0 32%;*/
+    flex:0 0 32%;
     max-width: 100%;
     margin-left: 5px;
     
@@ -703,8 +703,8 @@ footer{
    .home .home-img{
        display: none;
    }
-    .service .container .rows{
+   /* .service .container .rows{
 grid-template-columns: 1fr;
         grid-auto-rows:1fr;
-    }
+    }*/
 }
