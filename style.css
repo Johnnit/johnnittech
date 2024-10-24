@@ -470,13 +470,6 @@ font-size:clamp(1.5rem, 2.5vw,2rem);
     width:100%;
     padding-bottom: 40px;
 }
-/*.service .container .rows{
-    width:100vw;
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    grid-auto-rows:1fr;
-    gap:10px;
-}*/
 .service .service-item{
     width:100%;
     margin-bottom: 30px;
@@ -703,8 +696,4 @@ footer{
    .home .home-img{
        display: none;
    }
-   /* .service .container .rows{
-grid-template-columns: 1fr;
-        grid-auto-rows:1fr;
-    }*/
 }
